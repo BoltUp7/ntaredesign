@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitsch Theatre Arts — Where Young Artists Come Alive</title>
+  <meta name="description" content="Nitsch Theatre Arts (NTA) is a nonprofit arts education program in Central Illinois dedicated to nurturing creativity, building confidence, and bringing the magic of theatre to young performers." />
+  <meta property="og:title" content="Nitsch Theatre Arts NFP" />
+  <meta property="og:description" content="A nonprofit arts education program in Central Illinois. Discover our shows, classes, camps, and community." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Allura&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="NTA Home">
+        <div class="logo-mark">🎭</div>
+        <div class="logo-text">
+          <span class="logo-title">Nitsch Theatre Arts</span>
+          <span class="logo-sub">NFP</span>
+        </div>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#shows" class="nav-link">Shows</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#donate" class="nav-link nav-cta" id="donate-nav-btn">Donate ♥</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg" style="background-image: url('hero-bg.png');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Central Illinois • Est. in the Heart of Community</p>
+      <h1 class="hero-title">
+        <span class="hero-script">Where Young Artists</span>
+        <span class="hero-bold">Come Alive</span>
+      </h1>
+      <p class="hero-subtitle">
+        Nitsch Theatre Arts is a nonprofit dedicated to bringing the transformative power of theatre to students of all ages — building confidence, creativity, and community one performance at a time.
+      </p>
+      <div class="hero-actions">
+        <a href="#shows" class="btn btn-primary" id="hero-shows-btn">
+          <span>See Our Shows</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#programs" class="btn btn-ghost" id="hero-programs-btn">Explore Programs</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Years of Impact</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Young Artists Served</span>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Nonprofit Funded</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+      <div class="scroll-arrow"></div>
+    </a>
+  </section>
+
+  <!-- ===== MARQUEE BANNER ===== -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee-track">
+      <span>🎭 Auditions Open</span>
+      <span>✨ Summer Theatre Camp Registration</span>
+      <span>🌟 New Shows This Season</span>
+      <span>🎉 Community Performances</span>
+      <span>🎭 Auditions Open</span>
+      <span>✨ Summer Theatre Camp Registration</span>
+      <span>🌟 New Shows This Season</span>
+      <span>🎉 Community Performances</span>
+      <span>🎭 Auditions Open</span>
+      <span>✨ Summer Theatre Camp Registration</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-image-frame">
+            <img src="kids-theatre.png" alt="Young NTA performers on stage taking a bow" class="about-img" loading="lazy" />
+            <div class="about-image-badge">
+              <span class="badge-icon">🏆</span>
+              <div>
+                <strong>Nonprofit</strong>
+                <span>Arts Education</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content-col">
+          <span class="section-eyebrow">Our Mission</span>
+          <h2 class="section-title">Theatre Changes Lives</h2>
+          <p class="about-lead">
+            We believe every child deserves the chance to stand in the spotlight — not just on stage, but in life.
+          </p>
+          <p class="about-body">
+            Nitsch Theatre Arts (NTA) is a 501(c)(3) nonprofit arts education organization based in Central Illinois. Since our founding, we've been creating professional-quality theatrical experiences where young performers learn to express themselves, collaborate with others, and discover the courage that lives within them.
+          </p>
+          <p class="about-body">
+            Our programs reach students from kindergarten through high school, providing affordable access to classes, workshops, summer camps, and full-scale stage productions — regardless of a family's financial situation.
+          </p>
+          <div class="about-values">
+            <div class="value-item">
+              <span class="value-icon">🎨</span>
+              <div>
+                <strong>Creative Freedom</strong>
+                <p>Every voice matters. Every story deserves to be told.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🤝</span>
+              <div>
+                <strong>Community First</strong>
+                <p>Theatre is built on collaboration, teamwork, and mutual support.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">💡</span>
+              <div>
+                <strong>Accessible Arts</strong>
+                <p>No child is turned away for financial reasons. Ever.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary" id="about-contact-btn">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SHOWS ===== -->
+  <section id="shows" class="section shows-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">On The Stage</span>
+        <h2 class="section-title section-title-light">Current & Upcoming Shows</h2>
+        <p class="section-subtitle">From beloved classics to original productions — our stage is always alive with something wonderful.</p>
+      </div>
+      <div class="shows-grid">
+        <article class="show-card show-card-featured" id="show-main">
+          <div class="show-card-image">
+            <div class="show-placeholder show-placeholder-1">
+              <span class="show-placeholder-icon">🎭</span>
+            </div>
+            <div class="show-badge show-badge-upcoming">Upcoming</div>
+          </div>
+          <div class="show-card-body">
+            <span class="show-tag">Main Stage Production</span>
+            <h3 class="show-title">This Season's Showcase</h3>
+            <p class="show-desc">Join us for our signature fall production featuring our ensemble cast of talented young performers. An unforgettable evening of theatre, music, and heart.</p>
+            <div class="show-details">
+              <div class="show-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Check Back For Dates</span>
+              </div>
+              <div class="show-detail">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Central Illinois</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary" id="show-tickets-btn">Get Tickets / Info</a>
+          </div>
+        </article>
+        <article class="show-card" id="show-camp">
+          <div class="show-card-image">
+            <div class="show-placeholder show-placeholder-2">
+              <span class="show-placeholder-icon">☀️</span>
+            </div>
+            <div class="show-badge show-badge-registration">Registration Open</div>
+          </div>
+          <div class="show-card-body">
+            <span class="show-tag">Summer Camp</span>
+            <h3 class="show-title">Summer Theatre Camp</h3>
+            <p class="show-desc">A week-long immersive experience where young performers dive deep into acting, singing, movement, and stagecraft — culminating in a full performance.</p>
+            <a href="#contact" class="btn btn-outline" id="camp-register-btn">Register Now</a>
+          </div>
+        </article>
+        <article class="show-card" id="show-workshop">
+          <div class="show-card-image">
+            <div class="show-placeholder show-placeholder-3">
+              <span class="show-placeholder-icon">🎬</span>
+            </div>
+            <div class="show-badge show-badge-ongoing">Ongoing</div>
+          </div>
+          <div class="show-card-body">
+            <span class="show-tag">Workshops</span>
+            <h3 class="show-title">Year-Round Classes</h3>
+            <p class="show-desc">Weekly classes and workshops in acting fundamentals, improvisation, voice & diction, and stage movement for all skill levels.</p>
+            <a href="#programs" class="btn btn-outline" id="workshop-learn-btn">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VIDEO FEATURE ===== -->
+  <section class="section video-section">
+    <div class="container">
+      <div class="video-wrap">
+        <div class="video-content">
+          <span class="section-eyebrow">See For Yourself</span>
+          <h2 class="section-title section-title-light">The Magic of NTA</h2>
+          <p class="section-subtitle">Watch our students shine. Every performance is a testament to their courage, creativity, and hard work.</p>
+          <a href="https://www.youtube.com/@NitschTheatreArts" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="youtube-channel-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            Visit Our YouTube
+          </a>
+        </div>
+        <div class="video-embed">
+          <div class="video-frame">
+            <iframe
+              id="nta-youtube-embed"
+              src="https://www.youtube.com/embed/videoseries?list=UU_NTA_Channel"
+              title="Nitsch Theatre Arts Performances"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+            <div class="video-overlay" id="video-overlay">
+              <div class="play-button" id="play-btn" role="button" tabindex="0" aria-label="Play video">
+                <div class="play-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+                <span>Watch Our Performances</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMS ===== -->
+  <section id="programs" class="section programs-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">What We Offer</span>
+        <h2 class="section-title">Programs for Every Stage</h2>
+        <p class="section-subtitle">Whether your child is a first-time performer or a seasoned stage veteran, we have a program that's right for them.</p>
+      </div>
+      <div class="programs-grid">
+        <div class="program-card" id="program-elementary">
+          <div class="program-icon-wrap program-icon-yellow">🌱</div>
+          <h3 class="program-name">Little Stars</h3>
+          <span class="program-age">Ages 5 – 8</span>
+          <p class="program-desc">An introduction to the magic of theatre through storytelling, movement, and imaginative play. Perfect for our youngest dreamers.</p>
+          <ul class="program-features">
+            <li>Basic acting fundamentals</li>
+            <li>Storytelling & imagination</li>
+            <li>End-of-session showcase</li>
+          </ul>
+        </div>
+        <div class="program-card program-card-highlight" id="program-middle">
+          <div class="program-icon-wrap program-icon-purple">⭐</div>
+          <h3 class="program-name">Rising Stars</h3>
+          <span class="program-age">Ages 9 – 14</span>
+          <p class="program-desc">Dive deeper into the craft. Students explore character development, scene study, vocal projection, and collaborative performance.</p>
+          <ul class="program-features">
+            <li>Scene study & character work</li>
+            <li>Voice & movement training</li>
+            <li>Musical theatre elements</li>
+            <li>Full production participation</li>
+          </ul>
+          <div class="program-popular-badge">Most Popular</div>
+        </div>
+        <div class="program-card" id="program-teen">
+          <div class="program-icon-wrap program-icon-crimson">🌟</div>
+          <h3 class="program-name">Spotlight Ensemble</h3>
+          <span class="program-age">Ages 14 – 18</span>
+          <p class="program-desc">Our advanced program for dedicated young artists ready to take on leading roles and develop professional-level performance skills.</p>
+          <ul class="program-features">
+            <li>Advanced scene study</li>
+            <li>Directing & leadership roles</li>
+            <li>Audition preparation</li>
+            <li>Community outreach shows</li>
+          </ul>
+        </div>
+      </div>
+      <div class="programs-cta">
+        <p>Not sure which program is right? We'll help you find the perfect fit.</p>
+        <a href="#contact" class="btn btn-primary" id="programs-contact-btn">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Memories Made Here</span>
+        <h2 class="section-title section-title-light">From Our Stage</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-large" id="gallery-1">
+          <img src="kids-theatre.png" alt="NTA performers on stage" class="gallery-img" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Season Showcase</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-2">
+          <div class="gallery-placeholder gp-1">
+            <span>🎭</span>
+            <small>Musical Performance</small>
+          </div>
+          <div class="gallery-overlay"><span>Musical</span></div>
+        </div>
+        <div class="gallery-item" id="gallery-3">
+          <div class="gallery-placeholder gp-2">
+            <span>🎬</span>
+            <small>Workshop Scene</small>
+          </div>
+          <div class="gallery-overlay"><span>Workshop</span></div>
+        </div>
+        <div class="gallery-item" id="gallery-4">
+          <div class="gallery-placeholder gp-3">
+            <span>☀️</span>
+            <small>Summer Camp</small>
+          </div>
+          <div class="gallery-overlay"><span>Summer Camp</span></div>
+        </div>
+        <div class="gallery-item" id="gallery-5">
+          <div class="gallery-placeholder gp-4">
+            <span>🌟</span>
+            <small>Opening Night</small>
+          </div>
+          <div class="gallery-overlay"><span>Opening Night</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">What Families Say</span>
+        <h2 class="section-title">Voices from Our Community</h2>
+      </div>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card" id="testimonial-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"NTA completely transformed my daughter. She came in as a shy, quiet child and left her first show walking taller, speaking louder, and glowing with confidence. The staff truly cares about each and every kid."</p>
+          <cite class="testimonial-cite">
+            <strong>Sarah M.</strong>
+            <span>Parent, 3-year NTA family</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial-card" id="testimonial-2">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Being part of NTA taught me teamwork, discipline, and how to believe in myself. Those lessons have followed me into college and every part of my life. I'll be forever grateful."</p>
+          <cite class="testimonial-cite">
+            <strong>Jordan T.</strong>
+            <span>NTA Alumni</span>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial-card" id="testimonial-3">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The quality of productions at NTA always surprises me. These are kids — but the level of dedication, talent, and professionalism on that stage is genuinely moving every time."</p>
+          <cite class="testimonial-cite">
+            <strong>Mike & Linda R.</strong>
+            <span>Community supporters</span>
+          </cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DONATE ===== -->
+  <section id="donate" class="section donate-section">
+    <div class="container">
+      <div class="donate-inner">
+        <div class="donate-content">
+          <span class="section-eyebrow section-eyebrow-light">Support the Arts</span>
+          <h2 class="section-title section-title-light">Help Us Keep the Curtain Up</h2>
+          <p class="donate-body">
+            NTA is entirely supported by generous donors like you. Your gift directly funds scholarships, production costs, and the programs that give every child the chance to shine — regardless of their family's financial situation.
+          </p>
+          <div class="donate-impact">
+            <div class="impact-item">
+              <span class="impact-amount">$25</span>
+              <span class="impact-desc">Covers script materials for one student</span>
+            </div>
+            <div class="impact-item">
+              <span class="impact-amount">$100</span>
+              <span class="impact-desc">Sponsors a full week of summer camp for a child in need</span>
+            </div>
+            <div class="impact-item">
+              <span class="impact-amount">$500</span>
+              <span class="impact-desc">Funds an entire production's costume and prop budget</span>
+            </div>
+          </div>
+        </div>
+        <div class="donate-form-wrap">
+          <div class="donate-card">
+            <h3 class="donate-card-title">Make a Donation</h3>
+            <p class="donate-card-sub">Every dollar makes a difference. 100% goes toward our programs.</p>
+            <div class="donate-amounts">
+              <button class="donate-amount active" data-amount="25" id="donate-25">$25</button>
+              <button class="donate-amount" data-amount="50" id="donate-50">$50</button>
+              <button class="donate-amount" data-amount="100" id="donate-100">$100</button>
+              <button class="donate-amount" data-amount="250" id="donate-250">$250</button>
+            </div>
+            <div class="donate-custom">
+              <label for="custom-amount">Custom Amount</label>
+              <div class="donate-input-wrap">
+                <span class="donate-dollar">$</span>
+                <input type="number" id="custom-amount" placeholder="Other amount" min="1" />
+              </div>
+            </div>
+            <a href="https://www.paypal.com/donate?hosted_button_id=NTA_PAYPAL_BUTTON" target="_blank" rel="noopener noreferrer" class="btn btn-gold donate-btn" id="donate-paypal-btn">
+              Donate via PayPal ♥
+            </a>
+            <p class="donate-legal">NTA is a registered 501(c)(3) nonprofit. Donations may be tax deductible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2 class="section-title">We'd Love to Hear From You</h2>
+          <p class="contact-body">Questions about programs, auditions, volunteering, or sponsorship? Reach out — we're a small team but we love connecting with our community.</p>
+          <div class="contact-items">
+            <div class="contact-item" id="contact-email">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <strong>Email Us</strong>
+                <a href="mailto:info@nitschtheatrearts.org">info@nitschtheatrearts.org</a>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-location">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <span>Central Illinois</span>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-social">
+              <div class="contact-icon">📱</div>
+              <div>
+                <strong>Follow Us</strong>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/NitschTheatreArts" target="_blank" rel="noopener noreferrer" class="social-link" id="social-facebook" aria-label="Facebook">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  </a>
+                  <a href="https://www.youtube.com/@NitschTheatreArts" target="_blank" rel="noopener noreferrer" class="social-link" id="social-youtube" aria-label="YouTube">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" action="#" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="contact-email-input">Email Address</label>
+            <input type="email" id="contact-email-input" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <select id="contact-subject" name="subject">
+              <option value="">Select a topic...</option>
+              <option value="programs">Program Information</option>
+              <option value="auditions">Auditions</option>
+              <option value="volunteer">Volunteering</option>
+              <option value="sponsor">Sponsorship</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" rows="5" placeholder="Tell us how we can help..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary contact-submit-btn" id="contact-submit-btn">Send Message</button>
+          <div id="form-success" class="form-success" style="display:none;">
+            <span>🎉</span> Thank you! We'll be in touch soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-mark-sm">🎭</span>
+            <div>
+              <span class="footer-logo-title">Nitsch Theatre Arts</span>
+              <span class="footer-logo-sub">NFP · Nonprofit Arts Education</span>
+            </div>
+          </div>
+          <p class="footer-tagline">"Where Young Artists Come Alive"</p>
+          <p class="footer-desc">A 501(c)(3) nonprofit bringing the transformative power of theatre to young people in Central Illinois.</p>
+        </div>
+        <div class="footer-links-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About NTA</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/NitschTheatreArts" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.youtube.com/@NitschTheatreArts" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="mailto:info@nitschtheatrearts.org">Email Us</a></li>
+          </ul>
+          <h4 style="margin-top: 1.5rem;">Support</h4>
+          <ul>
+            <li><a href="#donate">Make a Donation</a></li>
+            <li><a href="#contact">Volunteer</a></li>
+            <li><a href="#contact">Sponsor a Show</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="footer-year"></span> Nitsch Theatre Arts NFP. All rights reserved.</p>
+        <p>Registered 501(c)(3) Nonprofit Organization · Central Illinois</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
